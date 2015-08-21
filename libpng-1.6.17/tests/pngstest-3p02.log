@@ -1,0 +1,2 @@
+PASS: --strict ./contrib/pngsuite/basn3p02.png
+PASS tests/pngstest-3p02 (exit status: 0)

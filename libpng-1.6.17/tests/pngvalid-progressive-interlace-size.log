@@ -1,0 +1,2 @@
+PASS: pngvalid --size --progressive-read (floating point arithmetic)
+PASS tests/pngvalid-progressive-interlace-size (exit status: 0)

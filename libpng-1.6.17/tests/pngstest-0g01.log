@@ -1,0 +1,3 @@
+PASS: --strict ./contrib/pngsuite/basn0g01.png
+PASS: --strict ./contrib/pngsuite/ftbbn0g01.png
+PASS tests/pngstest-0g01 (exit status: 0)
