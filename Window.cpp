@@ -34,7 +34,7 @@ extern "C" {
 void Window::initialize(void)
 {
   Globals::toonLink.initialize();
-  shader = new Shader("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/sample.vert","/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/sample.frag",true);
+  shader = new Shader("sample.vert","sample.frag",true);
   if(bind)
     shader->bind();
 

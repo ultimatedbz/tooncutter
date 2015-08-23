@@ -58,14 +58,14 @@ void ToonLink::initialize(){
   armAngle = 0;
   
   
-  bombM = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/Wii - Super Smash Bros Brawl - Toon Link Effects/Toon Link Effects 2/ItmToonLinkBomb.obj");
+  bombM = glmReadOBJ("Wii - Super Smash Bros Brawl - Toon Link Effects/Toon Link Effects 2/ItmToonLinkBomb.obj");
   
   /* Add the main body transformation */
   MatrixTransformation* body = new MatrixTransformation(origin);
   addChild(body);
   
     /* Add the model to the transformation */
-    temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/untitled folder/noArms.obj");
+    temp = glmReadOBJ("untitled folder/noArms.obj");
     Geode* g_body = new Geode(temp);
     body->addChild(g_body);
   
@@ -85,7 +85,7 @@ void ToonLink::initialize(){
       leftArm -> addChild(leftArmSetUpR);
     
       /* Add the model to the transformation */
-      temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/untitled folder/leftArm.obj");
+      temp = glmReadOBJ("untitled folder/leftArm.obj");
       
       Geode* g_leftArm = new Geode(temp);
       leftArmSetUpR->addChild(g_leftArm);
@@ -97,7 +97,7 @@ void ToonLink::initialize(){
       leftArm -> addChild(leftHandSetUpR);
       
       /* Add the model to the transformation */
-      temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/untitled folder/leftHand.obj");
+      temp = glmReadOBJ("untitled folder/leftHand.obj");
       
       Geode* g_leftHand = new Geode(temp);
       leftHandSetUpR->addChild(g_leftHand);
@@ -113,7 +113,7 @@ void ToonLink::initialize(){
       leftArm ->addChild(luffy);
       
       /* Add the model to the transformation */
-      temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/TimeSkip Luffy/luffy.obj");
+      temp = glmReadOBJ("TimeSkip Luffy/luffy.obj");
       
       Geode* g_luffy = new Geode(temp);
       luffy -> addChild(g_luffy);
@@ -137,7 +137,7 @@ void ToonLink::initialize(){
       rightArm ->addChild(rightArmSetupL);
       
       /* Add the model to the transformation */
-      temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/untitled folder/rightArm.obj");
+      temp = glmReadOBJ("untitled folder/rightArm.obj");
       
       Geode* g_rightArm = new Geode(temp);
       rightArmSetupL -> addChild(g_rightArm);
@@ -149,7 +149,7 @@ void ToonLink::initialize(){
       rightArm -> addChild(rightHandSetUpR);
       
       /* Add the model to the transformation */
-      temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/untitled folder/rightHand.obj");
+      temp = glmReadOBJ("untitled folder/rightHand.obj");
       
       Geode* g_rightHand = new Geode(temp);
       rightHandSetUpR->addChild(g_rightHand);
@@ -163,7 +163,7 @@ void ToonLink::initialize(){
       rightArm ->addChild(swordL);
       
       /* Add the model to the transformation */
-      temp = glmReadOBJ("/Users/jeffreychen/Desktop/Misc/school/past classes/cse_167/FINAL/untitled folder/sword.obj");
+      temp = glmReadOBJ("untitled folder/sword.obj");
       
       Geode* g_sword = new Geode(temp);
       swordL -> addChild(g_sword);
